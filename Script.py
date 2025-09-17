@@ -196,7 +196,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href='https://t.me/zishananis_official'>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</a>"""
+    CAPTION = """<b><a href='https://t.me/filmsexpert_1'>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</a>"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
@@ -252,7 +252,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
  
     RESTART_TXT = """
-<b><a href=https://t.me/{}>{}</a> Rᴇsᴛᴀʀᴛᴇᴅ !
+<b><a href=https://t.me/{}>{}</a> Rᴇsᴛᴀʀᴛᴇᴅ ! Maintained By @zishananis_official
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
