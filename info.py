@@ -113,7 +113,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', 'iwPFT7ziOCXWt11Q9bjf1S7Ojnt1')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "6")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', ' ᴅᴀᴛᴛᴇʙᴀʏᴏ ​!! ')
+MSG_ALRT = environ.get('MSG_ALRT', ' 𝙏𝙝𝙖𝙣𝙠𝙨 𝙁𝙤𝙧 𝙐𝙨𝙞𝙣𝙜 𝙈𝙚')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
