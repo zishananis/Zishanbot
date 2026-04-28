@@ -75,7 +75,7 @@ async def start(client, message):
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgIAAxkBAAISdGZdq8CuixMcWDLSnuo0AczMCqMVAAKrAQACEBptIni-vpHMVGzHHgQ")
+        m=await message.reply_sticker("CAACAgUAAxkBAAERIj1p8N6gj3W1_UcIs-fRZl9acFLwLgACnwgAAqqsUFRptCS1Z44FLjsE")
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
