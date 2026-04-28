@@ -75,7 +75,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                         InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                     ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
-                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ")
+                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAERIj1p8N6gj3W1_UcIs-fRZl9acFLwLgACnwgAAqqsUFRptCS1Z44FLjsE")
                 await m.delete()
                 await client.send_photo(
                     chat_id=message.from_user.id,
