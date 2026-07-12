@@ -13,7 +13,7 @@ from plugins.pm_filter import auto_filter
 from urllib.parse import quote_plus
 from Naman.util.file_properties import get_name, formate_file_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
-
+ 
 BATCH_FILES = {}
 join_db = JoinReqs
 
@@ -76,6 +76,7 @@ async def start(client, message):
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAERIj1p8N6gj3W1_UcIs-fRZl9acFLwLgACnwgAAqqsUFRptCS1Z44FLjsE")
+        await asyncio. sleep(3)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
